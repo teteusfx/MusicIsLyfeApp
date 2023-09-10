@@ -1,0 +1,72 @@
+#tfxlogo {
+  fill: #fff;
+  width: 6%;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: linear 0.1s;
+}
+
+header a:hover {
+  color: rgb(189, 189, 189);
+  text-decoration: none;
+}
+
+#portfolio-image {
+  width: 32%;
+  float: right;
+}
+
+#portfolio-text {
+  font-size: 34px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 74px;
+  margin-top: -35px;
+  margin-bottom: -25px;
+  color: #f9a826;
+  animation: 1s infinite alternate ease-out breathing-color--dark;
+}
+
+@keyframes breathing-color--dark {
+  from {
+    color: rgba(249, 168, 38, 0.5);
+  }
+  to {
+    color: #f9a826;
+  }
+}
+
+#center {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+#knowmore {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #f9a826;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 26px;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: linear 0.15s;
+}
+
+#knowmore:hover {
+  border-radius: 5px;
+  scale: 101%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}

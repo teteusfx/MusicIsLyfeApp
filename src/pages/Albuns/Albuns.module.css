@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 14%;
+}
+
+button {
+  font-size: 20px;
+  font-family: 'Fira Code', monospace;
+  background-color: transparent;
+  border: solid 3px rgb(73, 73, 73);
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  transition: linear 0.3s;
+  margin: 10px;
+  text-decoration: none;
+}
+
+button:hover {
+  color: rgb(255, 255, 255);
+  border: solid 3px rgb(196, 196, 196);
+}
+
+/* Add a bit of styling to the container */
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style for the album list */
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style for each album item */
+li {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  width: 300px; /* Set the width to 300px */
+  background-color: #252525;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for album image */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for album title */
+h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+/* Style for album details */
+p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+/* Add some spacing between album items */
+li + li {
+  margin-left: 20px;
+}
+
+/* Add a bit of spacing to the top header */
+h1 {
+  margin-top: 20px;
+}
